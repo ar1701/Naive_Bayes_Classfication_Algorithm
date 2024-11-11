@@ -1,5 +1,3 @@
-# Naive Bayes Classfication Algorithm
-
 # Breast Cancer Classification using Naive Bayes Algorithm
 ## Technical Implementation Report
 
