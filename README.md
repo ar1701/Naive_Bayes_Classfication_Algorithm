@@ -2,6 +2,10 @@
 
 ### Google Colab link: https://colab.research.google.com/drive/1dsjlX3xKJG8ocM64x_43cN91X4TPmAcg?usp=sharing
 
+#### Note:-
+1) Before running in Colab u need to download the dataset [Wisconsin Breast Cancer dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data)
+2) Then add it to the sample_data folder of colab
+
 ## Technical Implementation Report
 
 ### Executive Summary
