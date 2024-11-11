@@ -2,10 +2,10 @@
 ## Technical Implementation Report
 
 ### Executive Summary
-This report details the implementation of a Naive Bayes classifier for breast cancer diagnosis using the Wisconsin Breast Cancer dataset. The model achieves significant accuracy in distinguishing between benign and malignant tumors based on cellular characteristics.
+This report details the implementation of a Naive Bayes classifier for breast cancer diagnosis using the [Wisconsin Breast Cancer dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data). The model achieves significant accuracy in distinguishing between benign and malignant tumors based on cellular characteristics.
 
 ### 1. Dataset Overview
-**Source**: Wisconsin Breast Cancer Dataset  
+**Source**: [Wisconsin Breast Cancer dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data)  
 **Features**: 30 input features derived from cell nuclei characteristics  
 **Target Variable**: Diagnosis (Malignant/Benign)  
 **Total Samples**: 569 cases
@@ -176,7 +176,7 @@ def predict_breast_cancer(new_data):
 The implemented Naive Bayes classifier demonstrates strong performance in breast cancer diagnosis, achieving over 95% accuracy. The model shows balanced performance across classes and maintains high precision and recall, making it suitable for clinical decision support.
 
 ### 9. References
-1. Wisconsin Breast Cancer Dataset - UCI Machine Learning Repository
+1. [Wisconsin Breast Cancer dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data) - UCI Machine Learning Repository
 2. Scikit-learn Documentation - Naive Bayes
 3. Breast Cancer Diagnosis Guidelines
 4. Machine Learning in Medical Diagnosis - Best Practices
