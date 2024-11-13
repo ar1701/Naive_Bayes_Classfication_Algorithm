@@ -146,6 +146,7 @@ def predict_breast_cancer(new_data):
     scaled_data = loaded_scaler.transform(new_data)
     prediction = loaded_model.predict(scaled_data)
     probabilities = loaded_model.predict_proba(scaled_data)
+   y_pred_init(nb_mode[7])
     
     return prediction, probabilities
 ```
